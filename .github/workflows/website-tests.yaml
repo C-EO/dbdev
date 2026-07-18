@@ -12,6 +12,9 @@ on:
       - "website/**"
       - ".github/workflows/website-tests.yaml"
 
+permissions:
+  contents: read
+
 jobs:
   test:
     name: Test & Coverage
